@@ -184,8 +184,8 @@ func init() {
 				ctx.SendChain(message.Text("ERROR: ", err))
 				return
 			}
-			canvas.DrawStringAnchored("金币 + "+strconv.Itoa(add), 40, float64(imgDY-90), 0, 0)
-			canvas.DrawStringAnchored("当前金币："+strconv.Itoa(score), 40, float64(imgDY-60), 0, 0)
+			canvas.DrawStringAnchored("ATRI币 + "+strconv.Itoa(add), 40, float64(imgDY-90), 0, 0)
+			canvas.DrawStringAnchored("当前ATRI币："+strconv.Itoa(score), 40, float64(imgDY-60), 0, 0)
 			canvas.DrawStringAnchored("LEVEL: "+strconv.Itoa(getrank(level)), 40, float64(imgDY-30), 0, 0)
 
 			// Draw Info(Time, etc.)
